@@ -1,0 +1,26 @@
+name = "hono-app"
+compatibility_date = "2023-12-01"
+
+
+# Top-level configuration
+node_compat = true
+
+ [vars]
+     DB_HOST="tododb-devsath-e338.a.aivencloud.com"
+    DB_USER= "avnadmin"
+    DB_PASSWORD= "AVNS_neT7oZt2v4wmR18RfSb"
+    DB_NAME="defaultdb"  
+
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
